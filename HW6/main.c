@@ -12,6 +12,7 @@ void *server(void *arg);
 
 int main()
 {
+    srand(time(0));
     int shm_id;
     key_t key = 12345;
     int *shm_ptr;
